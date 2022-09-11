@@ -20,6 +20,7 @@ const AddNote = ({handleAddNote}) => {
     };
     return (<div className="note new">
         <textarea
+            value={noteText}
             maxLength={characterLimit}
             cols="10"
             rows="8"
